@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Image, ScrollView } from 'react-native';
-import { detailStyles } from './styles/detailStyles';
+import { detailStyles } from './styles/detailStyles'
 
 export default function DetailScreen({ route }) {
   const { character } = route.params;

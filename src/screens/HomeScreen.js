@@ -17,7 +17,7 @@ export default function HomeScreen({ navigation }) {
           <Text style={homeStyles.badge}>PORTAL INTERDIMENSIONAL</Text>
           <Text style={homeStyles.title}>MULTIVERSO RICK & MORTY</Text>
           <Text style={homeStyles.description}>
-            Explore a lista de personagens da série "Rick and Morty" e descubra detalhes sobre cada um deles.
+            Explore a lista de personagens da série Rick and Morty e descubra detalhes sobre cada um deles.
           </Text>
 
           <TouchableOpacity 
@@ -25,7 +25,7 @@ export default function HomeScreen({ navigation }) {
             activeOpacity={0.8}
             onPress={() => navigation.navigate('List')}
           >
-            <Text style={homeStyles.buttonText}>VER OS PERSONAGENS</Text>
+            <Text style={homeStyles.buttonText}>VER SOBRE OS PERSONAGENS DA SERIE</Text>
           </TouchableOpacity>
         </View>
       </View>
